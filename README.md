@@ -2,4 +2,4 @@
 ======
 A remote repo of the site will be stored here on GitHub
 
-The website is to be hosted at bpleazy.com
+The website is to be hosted at [bpleazy.com](bpleazy.com)
