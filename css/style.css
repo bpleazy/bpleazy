@@ -54,8 +54,8 @@ a:hover {
 
 header {
     text-align: center;
-    /**background: url('image.jpg') i don't currently have an image for this 
-    *background-size: cover;*/
+    background: url('pics/squiggle.jpg') 
+    background-size: cover;
     overflow: hidden;
     padding-top: 60px;
 }
@@ -150,19 +150,19 @@ a.social {
 }
 
 a.twitter {
-    background-image: url();
+    background-image: url('pics/twitter.png');
 }
 a.facebook {
-    background-image: url();
+    background-image: url('pics/fb.png');
 }
 a.instagram {
-    background-image: url();
+    background-image: url('pics/insta.png');
 }
 a.linkedin {
-    background-image: url();
+    background-image: url('pics/linkedin.png');
 }
 a.github {
-    background-image: url();
+    background-image: url('pics/github.png');
 }
 .clearfix {
     clear: both;
