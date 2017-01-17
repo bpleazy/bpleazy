@@ -54,8 +54,8 @@ a:hover {
 
 header {
     text-align: center;
-    background: url('pics/squiggle.jpg') 
-    background-size: cover;
+    background: url(../pics/squiggle.jpg); 
+    background-size: 500px;
     overflow: hidden;
     padding-top: 60px;
 }
@@ -140,7 +140,6 @@ footer ul li {
 
 a.social {
     display: inline-block;
-    text-indent: -9999px;
     margin-left: 5px;
     width: 30px;
     height: 30px;
@@ -150,20 +149,55 @@ a.social {
 }
 
 a.twitter {
-    background-image: url('pics/twitter.png');
+    background-image: url(pics/twitter.png);
 }
 a.facebook {
-    background-image: url('pics/fb.png');
+    background-image: url(pics/fb.png);
 }
 a.instagram {
-    background-image: url('pics/insta.png');
+    background-image: url(pics/insta.png);
 }
 a.linkedin {
-    background-image: url('pics/linkedin.png');
+    background-image: url(pics/linkedin.png);
 }
 a.github {
-    background-image: url('pics/github.png');
+    background-image: url(pics/github.png);
 }
+
+#facebook{
+    max-width: 30px;
+    max-height: 30px;
+}
+
+#twitter{
+    max-width: 30px;
+    max-height: 30px;
+}
+
+#instagram{
+    max-width: 30px;
+    max-height: 30px;
+}
+
+#github{
+    max-width: 30px;
+    max-height: 30px;
+}
+
+#linkedin{
+    max-width: 30px;
+    max-height: 30px;
+}
+
+
+
+
+
+/* <img class="social " src="">*/
+a.social:hover {
+    opacity: 1;
+}
+
 .clearfix {
     clear: both;
 }
